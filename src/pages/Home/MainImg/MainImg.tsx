@@ -6,7 +6,7 @@ function MainImg() {
       {/* <img className={styles.main_Img} src="mainImg.jpg" alt="mainImg" /> */}
       <div className={styles.main_Img_Inner_Div}>
         <div className={styles.main_Img_Text}>
-          Where Scents Meets Artistry...
+          Where Scents Meets Artistry..
         </div>
       </div>
     </div>
