@@ -1,0 +1,12 @@
+.outerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.sliderContainer {
+  max-width: 1300px;
+  width: 100%;
+  overflow: hidden;
+}

@@ -1,0 +1,81 @@
+.productSlide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.imageContainer {
+  width: 100%;
+  padding: 4px;
+  border: 1px solid var(--border-gray);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.productName,
+.priceContainer {
+  margin-top: 8px;
+}
+
+.oldPrice {
+  color: var(--text-gray);
+  text-decoration: line-through;
+}
+
+.newPrice {
+  margin-left: 10px;
+}
+
+.nextBtn {
+  position: absolute;
+  right: 38%;
+  bottom: 10px;
+  border: none;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.363);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.prevBtn {
+  z-index: 2;
+  position: absolute;
+  left: 38%;
+  bottom: 10px;
+  border: none;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.363);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nextBtn:hover,
+.prevBtn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.addToCartDiv {
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid var(--border-gray);
+  background-color: white;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.addToCartDiv:hover {
+  background-color: var(--border-gray);
+}
+
+.addToCartDiv:active {
+  background-color: rgb(53, 52, 52);
+}

@@ -1,0 +1,51 @@
+.footer {
+  background-color: var(--secondary-color);
+}
+
+.outer_div {
+  display: flex;
+  justify-content: center;
+}
+
+.innder_div {
+  flex: 1;
+  max-width: 1300px;
+  text-align: left;
+  margin-left: auto;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  border-top: 0px;
+  border-bottom: 1px;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  border-color: rgb(71, 70, 68);
+}
+
+.brand {
+  font-size: calc(1.275rem + 0.3vw);
+  color: rgb(232, 230, 227);
+  margin-bottom: 8px;
+}
+
+.slogan {
+  font-size: 0.875em;
+  margin-bottom: 20px;
+  color: var(--text-gray);
+}
+
+.description {
+  font-size: 0.875em;
+  margin-bottom: 8px;
+  color: var(--text-gray);
+}
+
+.copyright {
+  font-size: 0.9em;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+}

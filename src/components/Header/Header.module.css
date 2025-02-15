@@ -1,0 +1,65 @@
+.top_outer_div {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.top_inner_div {
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left_div {
+  font-size: 15px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.burger_menu {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.logo {
+  height: 80px;
+  cursor: pointer;
+}
+
+.right_div {
+  font-size: 15px;
+  padding-right: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.cart_icon {
+  font-size: 25px;
+}
+
+.cart_num {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: var(--primary-color);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}

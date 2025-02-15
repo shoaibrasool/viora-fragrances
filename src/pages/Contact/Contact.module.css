@@ -1,0 +1,9 @@
+.outerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  height: 100vh;
+  flex-direction: column;
+  font-size: 2.5em;
+}

@@ -1,0 +1,33 @@
+.outer_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  border-color: rgb(209, 205, 199);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.top_text,
+.exclusivity {
+  font-size: calc(1.375rem + 1.5vw);
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.middle_text {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.bottom_text_div span {
+  margin-left: 8px;
+}

@@ -1,0 +1,47 @@
+.mainDiv {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innerDiv {
+  max-width: 1300px;
+  width: 100%;
+}
+
+.heading {
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 35px;
+  margin-bottom: 50px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.productItem {
+  display: flex;
+  justify-content: center;
+}
+
+.gridInfoOuterDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridInfo {
+  text-align: center;
+  font-style: italic;
+  color: var(--text-gray);
+  font-size: 0.875rem;
+  border-bottom: 1px solid rgb(76, 76, 247);
+  padding: 20px 80px;
+  margin: 0px 20px 40px 20px;
+}
